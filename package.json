@@ -1,0 +1,22 @@
+{
+  "name": "c2cxmlparser",
+  "version": "1.0.0",
+  "description": "Parse Civ4 C2C XML files and find relations",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node"
+  },
+  "dependencies": {
+    "mongodb": "3.6.2",
+    "restify": "8.5.1",
+    "xml2js": "0.4.23",
+    "dotenv": "8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.12.9",
+    "@babel/node": "7.10.5"
+  },
+  "author": "flabbert",
+  "license": "ISC"
+}
